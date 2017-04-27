@@ -1,7 +1,7 @@
 //Source file: C:\\USERS\\ZIVY\\DESKTOP\\Programacion\\ProyectoAlquileres\\Yate.java
 
 
-public class Yate extends EmbarcacionDeportivaAMotor 
+public class Yate extends EmbarcacionAMotor 
 {
    private int nCamarotes;
   
@@ -13,7 +13,7 @@ public class Yate extends EmbarcacionDeportivaAMotor
    @param potenciaEnCv
    @param nCamarotes
       */
-   public Yate(String matricula, float eslora, int anio, Persona duenio, int potenciaEnCv, int nCamarotes) 
+   public Yate(String matricula, double eslora, int anio, Persona duenio, int potenciaEnCv, int nCamarotes) 
    {
        super(matricula, eslora, anio, duenio, potenciaEnCv);
        this.nCamarotes = nCamarotes;

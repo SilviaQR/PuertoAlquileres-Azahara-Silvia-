@@ -12,7 +12,7 @@ public class Velero extends Barco
    @param duenio
    @param nMastiles
     */
-   public Velero(String matricula, float eslora, int anio, Persona duenio, int nMastiles) 
+   public Velero(String matricula, double eslora, int anio, Persona duenio, int nMastiles) 
    {
        super(matricula, eslora, anio, duenio);
        this.nMastiles = nMastiles;

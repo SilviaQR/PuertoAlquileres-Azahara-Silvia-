@@ -4,7 +4,7 @@
 public abstract class Barco 
 {
    private String nMatricula;
-   private float eslora;
+   private double eslora;
    private int anioFabricacion;
    private Persona duenioBarco;
        
@@ -13,7 +13,7 @@ public abstract class Barco
    @param eslora
    @param duenio
     */
-   public Barco(String nMatricula, float eslora, int anioFabricacion, Persona duenioBarco) 
+   public Barco(String nMatricula, double eslora, int anioFabricacion, Persona duenioBarco) 
    {
        this.nMatricula = nMatricula;
        this.eslora = eslora;
@@ -30,7 +30,7 @@ public abstract class Barco
    
    /**
     */
-   public float getEslora() 
+   public double getEslora() 
    {
        return eslora;
    }

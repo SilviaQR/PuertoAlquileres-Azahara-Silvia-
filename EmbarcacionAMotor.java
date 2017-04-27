@@ -1,6 +1,6 @@
 //Source file: C:\\USERS\\ZIVY\\DESKTOP\\Programacion\\ProyectoAlquileres\\EmbarcacionDeportivaAMotor.java
 
-public class EmbarcacionDeportivaAMotor extends Barco 
+public class EmbarcacionAMotor extends Barco 
 {
     private int potenciaEnCv;
 
@@ -11,7 +11,7 @@ public class EmbarcacionDeportivaAMotor extends Barco
     @param duenio
     @param potenciaEnCv
      */
-    public EmbarcacionDeportivaAMotor(String matricula, float eslora, int anio, Persona duenio, int potenciaEnCv) 
+    public EmbarcacionAMotor(String matricula, double eslora, int anio, Persona duenio, int potenciaEnCv) 
     {
         super(matricula, eslora, anio, duenio);
         this.potenciaEnCv = potenciaEnCv;
