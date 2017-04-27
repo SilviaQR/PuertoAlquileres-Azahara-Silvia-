@@ -12,7 +12,7 @@ public class Test0134
     public Test0134()
     {        
     }
-
+    @Test
     public void test1()
     {
         Persona enrique = new Persona("Enrique Iglesias", "71456456H");
